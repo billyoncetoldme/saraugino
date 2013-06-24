@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap-2.3.1.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive-2.3.1.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/vendor/modernizr.custom.js"></script>
+        
+       
+        <!--HTML5 shim for IE backward compatibility -->
+            <!--[if lt IE 9]>
+                <script src = "http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+            <![endif]-->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <header class ="navbar">
+            <div class="navbar-inner">
+                <a href="pages/home.html" class="brand" target="wedding">Sara Ugino</a>
+                <ul class="nav">
+                    <li><a href="pages/wedding.html" class="active" target="wedding">wedding</a></li>
+                    <li><a href="pages/headshots.html" target="wedding">headshots</a></li>
+                    <li><a href="pages/services.html" target="wedding">services</a></li>
+                    <li><a href="pages/about.html" target="wedding">about</a></li>
+                    <li>
+                        <!-- Button to trigger modal -->
+                        <a href="#myModal" role="button" class="" data-toggle="modal">contact</a>
+                        <!-- Modal -->
+                        <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×
+                                </button>
+                                <h3 id="myModalLabel">Contact Me</h3>
+                            </div>
+                            <div class="modal-body">
+                                <label>
+                                    <input type="text" placeholder="name">
+                                </label>
+                            </div>
+                            <div class="modal-footer">
+                                <button aria-hidden="true" btn btn-primary" class="data-dismiss="modal">Send
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>            
+        </header>
+
+        <iframe src="pages/home.html" frameborder="0" name="wedding" seamless></iframe>
+            
+        </section>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/prefixfree.min.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+.wedding-portfolio{
+	height: 500px;
+	width: 100%;
+}
+.navbar{
+	margin-bottom: 0
+}
+#wedding{
+	height: 100%
+}
+#wedding-text{
+	text-align: center;
+	margin-top: 5%
+}
+img{
+	min-width: 100%
+}
+.carousel-inner{
+	width: 100%
+}
+
+/*------------------------------home*/
+#home{
+	background: url(../img/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
